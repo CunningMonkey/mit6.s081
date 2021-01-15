@@ -1,0 +1,11 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ sh < xargstest.sh
+$ echo DONE
+$ $ $ $ $ usertrap(): unexpected scause 0x000000000000000f pid=11
+            sepc=0x0000000000000110 stval=0x0505050505064395
+$ $ DONE
